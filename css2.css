@@ -1,0 +1,61 @@
+ul{
+	float:right;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+	}
+li {
+    float: left;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+img{
+width:200px;
+high:200px;
+float:right;
+}
+body{
+background-color:#00000f;
+}
+
+.div1 { position:absolute;
+    top: 50%;
+    left: 50%;
+    width:20em;
+    height:20em;
+    margin-top: -6.4em; /*set to a negative number 1/2 of your height*/
+    margin-left: -10em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3; 
+	}
+.div2 { position:right-side;
+    top: 50%;
+    left: 50%;
+    width:20em;
+    height:20em;
+    margin-top: 8.5em; /*set to a negative number 1/2 of your height*/
+    margin-left:5%; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: lightblue; } 
+.div3 { position:left-side;
+    top: 50%;
+    left: 50%;
+    width:20em;
+    height:20em;
+    margin-top: -20em; /*set to a negative number 1/2 of your height*/
+    margin-left: 70%; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: lightblue; }
